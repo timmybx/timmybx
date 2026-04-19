@@ -3,7 +3,7 @@
 Doctoral student (Cybersecurity Analytics) at George Washington University.
 
 ## What I’m working on
-- 🎓 **Praxis Project:** **Canary** — George Washington University Doctorate of Cybersecurity Analytics praxis project  
+- 🎓 **Praxis Project:** **Canary**
   → Repo: https://github.com/timmybx/canary
 
 ## Interests
