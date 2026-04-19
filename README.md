@@ -1,15 +1,13 @@
 # Hi, I’m Tim Brennan
 
-Doctoral student (Cybersecurity Analytics) and builder of practical security-focused projects—fun to collaborate with, serious about outcomes.
+Doctoral student (Cybersecurity Analytics) at George Washington University.
 
 ## What I’m working on
 - 🎓 **Praxis Project:** **Canary** — George Washington University Doctorate of Cybersecurity Analytics praxis project  
   → Repo: https://github.com/timmybx/canary
 
 ## Interests
-- Threat detection & security analytics
-- Applied cyber defense
-- Automation, monitoring, and “make it measurable” engineering
+- Open Source Vulnerability Prediction
 
 ## GitHub Stats
 > Note: These are dynamic images provided by a third-party service (GitHub Readme Stats).
