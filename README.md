@@ -1,78 +1,28 @@
-# Hi, I’m Tim Brennan 👋
+# Hi, I'm Tim Brennan
 
-![Doctoral Student](https://img.shields.io/badge/Doctoral%20Student-Cybersecurity%20Analytics-blue)
-![Principal Software Engineer](https://img.shields.io/badge/Principal%20Software%20Engineer-Software%20Engineering-1f6feb)
-![Focus](https://img.shields.io/badge/Research-OSS%20Vulnerability%20Prediction-green)
-![Project](https://img.shields.io/badge/Project-CANARY-orange)
-![DevSecOps](https://img.shields.io/badge/Interest-DevSecOps-purple)
+**Principal Software Engineer** · **Doctor of Engineering candidate, Cybersecurity Analytics** at The George Washington University (expected December 2026)
 
-Engineer, researcher, and lifelong builder.
-
-I’m a **Principal Software Engineer** and a **Doctor of Engineering student in Cybersecurity Analytics** at **The George Washington University**.  
-My research focuses on **open-source software supply-chain risk**, **vulnerability prediction**, and building **practical, interpretable security analytics tools**.
+I build practical, explainable, reproducible security analytics tools. My research focuses on open source software supply chain risk and predicting vulnerabilities before they are disclosed.
 
 ---
 
-## 🐤 Featured Project: CANARY
+## 🐤 CANARY — doctoral research project
 
-**CANARY** = **Component Analytics & Near-term Advisory Risk Yardstick**
+**Live: [canary-score.com](https://canary-score.com)** · **Code: [timmybx/canary](https://github.com/timmybx/canary)**
 
-CANARY is my doctoral praxis project exploring whether publicly observable project signals can help estimate **near-term advisory risk** in open-source software **before** an advisory is published.
+CANARY (Component Analytics & Near-term Advisory Risk Yardstick) estimates the probability that an open source component will receive a published security advisory within the next 180 days, using only publicly observable project signals. It is a prioritization tool: point limited security review time at the components most likely to need it.
 
-### Current focus
-- Historical OSS data collection and normalization
-- Advisory-linked dataset construction
-- Feature family comparison to separate **signal from noise**
-- Interpretable machine learning for decision support
-- Reproducible cybersecurity analytics workflows
+- Scores all 2,053 Jenkins plugins from 154 features across four public data sources
+- Validated against reality: 23 of its top 25 ranked plugins received actual Jenkins security advisories within the prediction window (~49× better than random review selection)
+- Cross-ecosystem validation on the 8,000 most downloaded PyPI packages
+- Every score comes with a SHAP-backed explanation — no black box
+- Fully reproducible: containerized, hash-pinned dependencies, temporally validated evaluation
 
-🔗 **Repository:** [timmybx/canary](https://github.com/timmybx/canary)
+## 🔍 Interests
 
----
-
-## 🔍 Research & Technical Interests
-
-- Open-source vulnerability prediction
-- Software supply-chain security
-- Cybersecurity analytics
-- DevSecOps
-- CI/CD and automation
-- Interpretable machine learning
-- Security-focused engineering research
-- Jenkins ecosystem risk analysis
-
----
-
-## 🛠 About Me
-
-I like building systems that are:
-
-- **Practical**
-- **Explainable**
-- **Reproducible**
-- **Useful to real engineering teams**
-
-Much of my recent work sits at the intersection of **software engineering**, **security**, and **data-driven decision support**.
-
----
-
-## 📊 GitHub Stats
-
-![Timmybx's GitHub stats](https://github-readme-stats.vercel.app/api?username=timmybx&show_icons=true&rank_icon=github&hide_title=true)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=timmybx&layout=compact)
-
----
-
-## 🚀 Currently Exploring
-
-- OSS risk scoring frameworks
-- Historical advisory mining
-- Feature ablation and model comparison
-- Research methods for interpretable ML
-- Security signals from GitHub activity and software ecosystems
-
----
+Open source supply chain security · vulnerability prediction · interpretable ML · DevSecOps · CI/CD automation
 
 ## 📫 Connect
 
-- **Email:** tebrennan@gwu.edu
+- Email: tebrennan@gwu.edu
+- ORCID: [0009-0001-6376-410X](https://orcid.org/0009-0001-6376-410X)
