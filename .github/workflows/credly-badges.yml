@@ -1,0 +1,19 @@
+name: Update Credly badges
+
+on:
+  schedule:
+    - cron: "17 3 * * 1"   # Mondays, 03:17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write   # the action commits the badge section into README.md
+
+jobs:
+  update-readme:
+    name: Update README with Credly badges
+    runs-on: ubuntu-latest
+    steps:
+      - name: Badges to README
+        uses: pemtajo/badge-readme@main
+        with:
+          CREDLY_USER: timothy-brennan.7c2b8b5a
