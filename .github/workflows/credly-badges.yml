@@ -17,5 +17,23 @@ jobs:
         uses: pemtajo/badge-readme@main
         with:
           CREDLY_USER: timothy-brennan.7c2b8b5a
-          BADGE_SIZE: 110
-          NUMBER_LAST_BADGES: 25
+          NUMBER_LAST_BADGES: 20
+
+      # The action commits markdown images whose size depends on how Credly
+      # stored each image. Re-check out the branch it pushed to and rewrite the
+      # section as fixed-width HTML so every badge renders at the same size.
+      - name: Check out the updated README
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Normalize badge sizes
+        run: python3 .github/scripts/normalize_badges.py 110
+
+      - name: Commit normalized badges
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --cached --quiet || git commit -m "Normalize Credly badge sizes"
+          git push
