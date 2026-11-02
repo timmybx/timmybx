@@ -1,4 +1,4 @@
-# Hi, I'm Tim Brennan
+# Timothy Brennan
 
 **Principal Software Engineer** · **Doctor of Engineering candidate, Cybersecurity Analytics** at The George Washington University (defense scheduled January 2027) · CSSLP
 
