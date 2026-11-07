@@ -18,6 +18,7 @@ CANARY (Component Analytics & Near-term Advisory Risk Yardstick) scores open sou
 - Cross-ecosystem check on the 8,000 most downloaded PyPI packages
 - Explainable by construction: the champion is a logistic regression over 18 columns, with SHAP for the tree-model runner up
 - Open research record: pre-registered protocol, containerized and hash-pinned pipeline, dataset and model artifacts on Zenodo
+- Presented at **SCORED '26** (OpenSSF Community Day Europe, Prague, October 2026): [watch the talk](https://www.youtube.com/watch?v=im2n_blOmoU)
 
 ## 🎓 Verified badges
 
